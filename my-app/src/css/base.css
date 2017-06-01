@@ -7,5 +7,22 @@
   transition: opacity .5s ease-in;
 }
 body{
-    background: #ccc
+    width:100%;
+}
+html, body, div, dl, dt, dd, ul, ol, li ,h1,h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td,table, textarea, img, a ,select {
+            margin: 0;
+            padding: 0;
+            font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            outline: 0;
+}
+html,body{
+  min-height: 100%;
+    background-color: #eaeaea;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
 }

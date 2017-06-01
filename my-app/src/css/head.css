@@ -1,0 +1,28 @@
+.top{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+}
+.top li{
+    float: left;
+    padding: 10px;
+    margin-bottom: .5rem;
+}
+.top li a{
+    color:#333;
+    font-size: .8rem;
+}
+.headContainer{
+    width: 100%;
+    background-color: #fff;
+}
+.top .active{
+    border-bottom: 2px solid #169fe6;
+}
+.top .active a{
+    color:#169fe6;
+    font-weight: bold;
+}

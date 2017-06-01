@@ -1,0 +1,25 @@
+.footContainei{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.foot{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+}
+.foot li{
+    float: left;
+    padding: 10px;
+}
+.foot li a{
+    color:#333;
+    font-size: .8rem;
+}
+.foot .typeActive a{
+    color:#169fe6
+}
